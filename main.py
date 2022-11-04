@@ -82,7 +82,7 @@ def everything():
     s1="http://"+str(ent1.get())+"/video"
     s2="http://"+str(ent2.get())+"/video"
     thread0 = GUIThread()
-    thread1 = camThread("cam1",s2,0)
+    thread1 = camThread("cam1",s1,0)
     thread2 = camThread("cam2",s2,1)
     thread0.start()
     thread1.start()
